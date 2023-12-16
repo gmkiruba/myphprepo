@@ -7,9 +7,9 @@
 	<h1>MySQL Table Viewer</h1>
 	<?php
 		// Define database connection variables
-		$servername = "mysqlproj.mysql.database.azure.com";
+		$servername = "myglsql.mysql.database.azure.com";
 		$username = "mysqladmin";
-		$password = "Password@123";
+		$password = "Password123";
 		$dbname = "employees";
 
 		// Create database connection
