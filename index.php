@@ -10,7 +10,7 @@
 		$servername = "mysqlproj.mysql.database.azure.com";
 		$username = "mysqladmin";
 		$password = "Password@123";
-		$dbname = "mysqlproj";
+		$dbname = "employees";
 
 		// Create database connection
 		$conn = new mysqli($servername, $username, $password, $dbname);
