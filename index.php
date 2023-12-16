@@ -17,6 +17,7 @@
 
 		// Check connection
 		if ($conn->connect_error) {
+			echo "There is a connectivity issue with database";
 			die("Connection failed: " . $conn->connect_error);
 		}
 
